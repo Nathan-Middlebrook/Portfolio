@@ -6,8 +6,7 @@ For the Databases and Web project, we were supposed to create a website that wou
 GroupBy is one of the MapReduce programs I wrote while working as a member of an Arizona State University research team.  It expects an input file called GBData.csv where each line is a vector and the first column is the aggregation attribute.  All vectors should be of the same dimensionality and the aggregation attribute is not included as a dimension of the vector.
 
 Usage: bin/hadoop jar GroupBy.jar GroupBy <agg method> <numReducers> <dimensionality>
-  
-Aggregation choices: 1=Avg, 2=Count, 3=Min, 4=Max, 5=Sum
+  Aggregation choices: 1=Avg, 2=Count, 3=Min, 4=Max, 5=Sum
 
 
 Matrix is a program I wrote in C while learning about multiprocessing and multithreading.  Given two matrices, it will calculate the product.
